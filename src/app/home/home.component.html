@@ -1,0 +1,68 @@
+<header>
+    <mat-toolbar color="primary" id="menu">
+      <div class="menu">
+        <mat-icon>view_list</mat-icon>&nbsp;&nbsp;
+        <mat-menu #appmenu="matMenu">
+          <button mat-menu-item>
+            <mat-icon>home</mat-icon>All Lists</button>
+          <div id="submenu">
+            <button mat-menu-item>
+              <mat-icon>list</mat-icon>Default</button>
+            <button mat-menu-item>
+              <mat-icon>list</mat-icon>Personl</button>
+            <button mat-menu-item>
+              <mat-icon>list</mat-icon>Shopping</button>
+            <button mat-menu-item>
+              <mat-icon>list</mat-icon>Wishlist</button>
+            <button mat-menu-item>
+              <mat-icon>list</mat-icon>Work</button>
+          </div>
+          <button mat-menu-item>
+            <mat-icon>done</mat-icon>Finished</button>
+          <button mat-menu-item>
+            <mat-icon>add_box</mat-icon>New List</button>
+        </mat-menu>
+  
+        <button mat-icon-button [matMenuTriggerFor]="appmenu">
+          <span>All Lists</span> &nbsp;&nbsp;
+          <mat-icon>arrow_drop_down</mat-icon>
+        </button>
+      </div>
+      <div class="search">
+        <mat-icon id="searchicon">search</mat-icon>
+        <mat-form-field class="example-full-width" id="searchbox">
+          <input type="search" matInput placeholder="Search" value="">
+          <mat-icon id="searchclear">clear</mat-icon>&nbsp;&nbsp;
+  
+        </mat-form-field>
+      </div>
+  
+      <div class="sidemenudiv">
+        <mat-menu #sidemenu="matMenu">
+          <button mat-menu-item>Task Lists</button>
+          <button mat-menu-item>Add in Batch Mode</button>
+          <button mat-menu-item>Settings</button>
+        </mat-menu>
+        <button mat-icon-button [matMenuTriggerFor]="sidemenu">
+          <mat-icon>more_vert</mat-icon>
+        </button>
+      </div>
+    </mat-toolbar>
+  </header>
+  
+  <div class="add-div">
+    <a routerLink="/newtask"><mat-icon class="add_circle" color="primary">add_circle</mat-icon></a>
+  </div>
+  
+  
+  
+  
+  
+  <mat-toolbar id="quicktask" color="primary">
+    <mat-form-field class="example-full-width">
+      <input type="search" matInput placeholder="Enter Quick Task Here" value="">
+     
+    </mat-form-field>
+    <mat-icon>done</mat-icon>
+  </mat-toolbar>
+  

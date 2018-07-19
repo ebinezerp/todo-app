@@ -1,0 +1,26 @@
+#heading{
+    margin-left: 15px;
+}
+
+mat-toolbar
+{
+    display: flex;
+    justify-content: flex-start;
+}
+
+mat-icon
+{
+    flex:0;
+}
+
+mat-toolbar h1{
+    flex:1;
+}
+#doneicon
+{
+    flex:2;
+    display:flex;
+    justify-content: flex-end;
+}
+
+

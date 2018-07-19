@@ -1,0 +1,88 @@
+.add-div{
+    min-height:89%;
+    display: flex;
+    flex-flow: column;
+    justify-content:flex-end;
+    align-items: flex-end;
+    padding-bottom: 11%;
+}
+
+.add_circle
+{
+    font-size: 60px;
+}
+
+.mat-icon
+{
+    height: auto;
+    width: auto;
+    vertical-align: middle;
+}
+
+.mat-toolbar#menu
+{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+}
+
+header{
+    margin-top:0;
+}
+
+.menu
+{
+  flex:1;
+}
+
+#submenu
+{
+    padding-left: 20px;
+}
+
+.search
+{
+    flex:30;
+    display:flex;
+    justify-content: flex-end;
+}
+
+.sidemenudiv{
+    flex:1;
+    display: flex;
+    justify-content: flex-end;
+    margin-right:0;
+}
+#searchbox
+{
+    display: none;
+    justify-content: flex-end;
+    margin-right: 30px;
+}
+
+
+
+#quicktask{
+  height: 11%;
+  margin-top: -11%;
+  position: relative;
+  clear:both;
+ 
+}
+
+#quicktask mat-form-field.mat-form-field {
+    width: 85%;
+  }
+
+  #quicktask mat-form-field.mat-form-field input
+  {
+    border:1px solid black;
+    width: 100%;
+  }
+
+#quicktask mat-form-field.mat-form-field mat-icon.mat-icon
+{
+    width: 8%;
+    padding:2%;
+    border:1px solid black;
+}
