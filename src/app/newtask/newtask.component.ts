@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NewtaskComponent implements OnInit {
 
+  selected="default";
+
   constructor() { }
 
   ngOnInit() {

@@ -5,8 +5,11 @@ import {MatButtonModule,
         MatIconModule,
         MatToolbarModule,
         MatMenuModule,
-       MatFormFieldModule,
-       MatInputModule} from '@angular/material';
+        MatFormFieldModule,
+        MatInputModule,
+        MatDatepickerModule,
+        MatNativeDateModule,
+        MatSelectModule } from '@angular/material';
 
 
 
@@ -20,7 +23,10 @@ import {MatButtonModule,
         MatMenuModule,
         BrowserAnimationsModule,
         MatFormFieldModule,
-        MatInputModule
+        MatInputModule,
+        MatDatepickerModule,
+        MatNativeDateModule,
+        MatSelectModule
     ],
     exports:[
         CommonModule,
@@ -30,7 +36,10 @@ import {MatButtonModule,
         MatMenuModule,
         BrowserAnimationsModule,
         MatFormFieldModule,
-        MatInputModule
+        MatInputModule,
+        MatDatepickerModule,
+        MatNativeDateModule,
+        MatSelectModule
     ],
     providers:[
        
